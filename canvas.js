@@ -12,3 +12,6 @@ function drawLine(start, end) {
   ctx.lineTo(end.x, end.y);
   ctx.stroke();
 }
+function clearPage() {
+  ctx.clearRect(0, 0, c.width, c.height);
+}
